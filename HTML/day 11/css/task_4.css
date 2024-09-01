@@ -1,0 +1,96 @@
+body{
+
+    background-image: url('../pic/Screenshot\ 2024-09-01\ 032129.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card{
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px goldenrod solid;
+    border-radius:50px;
+    background-color: black;
+
+}
+
+.card::before{
+    content: 'A';
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size:30pt;
+    color: goldenrod;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:20px;
+    left:20px;
+
+}
+
+.card::after{
+    content: 'A';
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size:30pt;
+    color: goldenrod;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 540px;
+    left:300px;
+
+}
+
+div>div:nth-child(1){
+    position: absolute;
+    top:340px;
+    left: 150px;
+    width:0px;
+    height:0px;
+    border-left: 30px transparent solid;
+    border-right: 30px transparent solid;
+    border-bottom: 60px goldenrod solid;
+
+
+}
+div>div:nth-child(2){
+    position: absolute;
+    top:245px;
+    left: 123px;
+    width:0px;
+    height:0px;
+    border-left: 58px transparent solid;
+    border-right: 58px transparent solid;
+    border-bottom: 75px goldenrod solid;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+
+
+}
+div>div:nth-child(3){
+    position: absolute;
+    top:300px;
+    left: 120px;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color: goldenrod;
+
+
+}
+div>div:nth-child(4){
+    position: absolute;
+    top:300px;
+    left: 170px;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color: goldenrod;
+
+
+}

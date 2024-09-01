@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <style>
+            table,tr,td{
+                margin: auto;
+                border: 2px grey solid;
+                width: auto;
+                height: auto;
+            }
+
+            h2{
+                text-align: center;
+            }
+            [type="checkbox"]{
+                
+              margin-left: 20%;
+            }
+            label{
+
+                color: rgb(159, 21, 21);
+                font-weight: bolder;
+            }
+
+            [type="button"]{
+                
+                margin-left: 15%;
+              }
+
+            [type="text"],[type="password"]{
+                
+                width: 95%;
+              }
+
+            .text{
+
+                color: rgb(159, 21, 21);
+                font-weight: bolder;
+            }
+        </style>
+     
+    </head>
+    <body>
+        <form action="login page.html" method="get">
+        <u><h2>Registiration Form</h2></u>
+        <table style="height: 600px;">
+            
+            <tr>
+                <td class="text">First name</td>
+                <td><input type="text" placeholder="Enter your fname"></td>
+            </tr>
+
+            <tr>
+                <td class="text">Last name</td>
+                <td><input type="text" placeholder="Enter your lname"></td>
+            </tr>
+
+            <tr>
+                <td class="text">Email</td>
+                <td><input type="text" placeholder="Enter your Email"></td>
+            </tr>
+
+            <tr>
+                <td class="text">Password</td>
+                <td><input type="password" placeholder="Enter your password"></td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" class="text">Gender</td>
+                <td><input type="radio" value="male" name="gender"><label>male</label></td>
+            </tr>
+
+            <tr>
+                <td><input type="radio" value="female" name="gender"><label>female</label></td>
+            </tr>
+
+            <tr>
+                <td class="text">country</td>
+                <td><label>select your country<select style="width: 95%;">
+                    <optgroup label="africa">
+                        <option>egypt</option>
+                        <option>sudan</option>
+                        <option>libya</option>
+                    </optgroup>
+                    <optgroup label="asia">
+                        <option>china</option>
+                        <option>moroco</option>
+                        <option>japan</option>
+                    </optgroup>
+                    <optgroup label="europe">
+                        <option>england</option>
+                        <option>france</option>
+                        <option>italy</option>
+                    </optgroup>
+                </select></label></td>
+            </tr>
+
+            <tr>
+                <td class="text">Birthday</td>
+                <td><input type="date" style="width: 95%;"></td>
+            </tr>
+
+
+            <tr>
+                <td colspan="2" style="text-align: center;" class="text"><u>interests</u></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="checkbox" style="margin: 3%;"name="sports " value="sports "> <label>sports </label>                                      <input type="checkbox"  name="Reading" value="Reading"> <label>Reading</label>                                       <input type="checkbox" name="fashion"value="fashion" ><label>fashion</label><br><input type="checkbox" style="margin: 3%;" name="movies"value="movies"> <label>movies</label>                                      <input type="checkbox" name="shopping"value="shopping"> <label>shopping</label>                                           <input type="checkbox" name="music"value="music"><label>music</label></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;" class="text"><u>Bio</u></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="text" style="height: 50px;width: 400px;"></td>
+            </tr>
+            
+       
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="register"> <input type="reset" style="margin-left: 5%;" value="clear"> </td>
+            </tr>
+            
+        </table>
+        
+       </form>
+    </body>
+</html>

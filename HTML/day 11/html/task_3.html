@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        polygon{
+
+            fill: red;
+        }
+        math{
+
+            font-size: 50px;
+        }
+        #a{
+            position: absolute;
+            top: 175px;
+            left: 175px;
+        }
+        #b{
+            position: absolute;
+            top: 275px;
+            left: 100px;
+        }
+        #c{
+            position: absolute;
+            top: 175px;
+            left: 75px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <svg width="500" height="300">
+
+        <polygon points="150,100,150,250,50,250"></polygon>
+
+    </svg>
+
+    <h1>according to pythagoras theroem</h1>
+
+    <math>
+        <mrow>
+            <mi>C</mi>
+            <mo>=</mo>
+            <msqrt>
+                <msup>
+                    <mi>a</mi>
+                    <mi>2</mi>
+                </msup>
+                <mo>+</mo>
+                <msup>
+                    <mi>b</mi>
+                    <mi>2</mi>
+                </msup>
+            </msqrt>
+        </mrow>
+    </math>
+
+    <label id="a">a</label>
+    <label id="b">b</label>
+    <label id="c">c</label>
+
+</body>
+</html>
